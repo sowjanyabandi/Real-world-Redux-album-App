@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Provider} from 'react-redux';
 import store from './store'
-
+import AlbumsListContainer from './components/AlbumsListContainer'
 class App extends Component {
   render() {
   return (
@@ -18,6 +18,7 @@ class App extends Component {
             To get started, edit <code>src/App.js</code> and save to reload.
           </p>
         </div>
+        <main><AlbumsListContainer/></main>
       </Provider>
     );
   }
